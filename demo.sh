@@ -64,7 +64,7 @@ test_sd() {
 }
 
 test_wifi() {
-  nmcli dev wifi | head
+  nmcli dev wifi | head -5
 
   return
 }
